@@ -15,5 +15,5 @@ jobs:
           SHELLCHECK_OPTS: -e SC2059 -e SC2034 -e SC1090
         with:
           severity: info
-          format: checkstyle
+          format: tty
           scandir: scripts/
