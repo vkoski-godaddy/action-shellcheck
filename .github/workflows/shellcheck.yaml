@@ -15,3 +15,4 @@ jobs:
         with:
           severity: info
           format: tty
+          scandir: scripts/
