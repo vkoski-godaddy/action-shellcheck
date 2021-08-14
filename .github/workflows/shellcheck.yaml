@@ -10,3 +10,7 @@ jobs:
       - name: Shellcheck Runner
         id: shellcheck
         uses: vkoski-godaddy/action-shellcheck@master
+        env:
+          SHELLCHECK_OPTS: -e SC2059 -e SC2034 -e SC1090
+        with:
+          severity: info
